@@ -1,0 +1,12 @@
+.contenedor {
+    position: relative;
+    /*background-color: #121828;*/
+    background: rgb(18,24,40);
+background: linear-gradient(187deg, rgba(147,10,24,1) 0%, rgb(156, 84, 84) 100%);
+    color: #c7c7c7;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: auto;
+    bottom: 0;
+}
+

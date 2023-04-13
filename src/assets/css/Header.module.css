@@ -1,0 +1,138 @@
+
+.contenedor {
+    position: relative;
+    /*background-color: #121828;*/
+    background: rgb(18,24,40);
+background: linear-gradient(187deg, rgba(49,39,131,1) 0%, rgba(65,68,101,1) 100%);
+    color: #c7c7c7;
+    overflow: hidden;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    height: 220px;
+}
+
+.contenedor img {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    top: 0;
+    right: 70px;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px; 
+    cursor: pointer;
+    padding: 8px;  
+    transition: .5s;
+}
+
+.menu:hover{
+    background-color: #2d3963;
+    transition: .5s;
+}
+
+h2, h3 {
+    text-align: left;
+    margin-left: 20px;
+    cursor: default;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.contenedor div {
+    margin-top: 40px;
+    width: 75vw;
+}
+
+.btnmenu {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1150px) {
+    .contenedor img {
+        right: 30px;
+    }
+}
+
+@media only screen and (max-width: 855px) {
+    .contenedor img {
+        right: 15px;
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .contenedor img {
+        right: 0;
+        top: 20px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+    
+    h2 {
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (max-width: 640px) {
+    .contenedor img {
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .contenedor img {
+        width: 150px;
+    }
+}
+
+@media only screen and (max-width: 502px) {
+    .contenedor img {
+        width: 130px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+    
+    h2 {
+        font-size: 24px;
+    }
+
+    .contenedor {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 407px) {
+    .contenedor img {
+        width: 120px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    
+    .contenedor {
+        height: 180px;
+    }
+
+
+    h3 {
+        font-size: 13px;
+    }
+    
+    h2 {
+        font-size: 19px;
+    }
+}
+

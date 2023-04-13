@@ -1,0 +1,23 @@
+
+.ContForm {
+    display: block;
+    
+}
+
+.Formulario {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    gap: 20px;
+}
+
+.btnNuevo {
+    display: flex;
+    justify-content: left;
+}
+
+.ContNuevo {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    align-items: flex-end;
+}

@@ -1,0 +1,116 @@
+.menuActive {
+    position: fixed;
+    right: 0;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #312783;
+    z-index: 1000;
+    transition: all .7s ease;
+    max-width: 100%;
+  }
+
+
+.menuInactive {
+    position: fixed;
+    right: 0;
+    background-color: #312783;
+    z-index: 1000;
+    max-width: 0;
+    transition: all .7s ease;
+}
+
+.menuActive::-webkit-scrollbar {
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+    display: none;  /* Ocultar scroll */
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del thumb */
+.menuActive::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.menuActive::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.menuActive::-webkit-scrollbar-thumb:active {
+    background-color: #999999;
+}
+
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.menuActive::-webkit-scrollbar-track {
+    background: #e1e1e1;
+    border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.menuActive::-webkit-scrollbar-track:hover,
+.menuActive::-webkit-scrollbar-track:active {
+  background: #d4d4d4;
+}
+
+
+nav{
+    color: white;
+}
+
+.btnMenu{
+    float: right;
+    padding: 10px;
+
+}
+
+nav > div {
+    margin-top: 40px;
+    
+}
+
+
+
+div .links {
+    display: block;
+    width: 15vw;
+    text-decoration: none;
+    color: #c7c7c7;
+    padding: 20px;
+    border-right: 5px solid transparent;
+    transition: all 500ms ease;
+}
+
+div .links:hover {
+    border-right: 5px solid #c7c7c7;
+    transition: all 500ms ease;
+    background: #261d6d;
+}
+
+.divisor{
+    background: #c7c7c7;
+}
+
+.user {
+    display: block;
+    color: #c7c7c7;
+    padding: 20px;
+    border-right: 5px solid transparent;
+    cursor: default;
+    text-align: center;
+    transition: all 500ms ease;
+}
+
+@media only screen and (max-width: 800px) {
+    div .links {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    div .links {
+        width: 100vw;
+    }
+}
+

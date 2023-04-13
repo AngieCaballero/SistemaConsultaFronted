@@ -1,0 +1,65 @@
+.contenedor {
+    margin: 50px;
+    
+}
+
+.selectfecha{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: right;
+    align-items: center;
+}
+
+.selectfecha select {
+    appearance: none;
+    -webkit-appearance: none;
+	-moz-appearance: none;
+    height: 25px;
+    justify-content: center;
+    margin-left: 5px;
+    width: 60px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px;
+    padding-left: 14px;
+    transition: all .4s ease;
+}
+
+.contenedor h5, h4 {
+    color: #121828;
+}
+
+.contModal {
+    display: grid;
+    grid-template-columns: 320px 320px;
+}
+
+.contModalEdit {
+    display: grid;
+    grid-template-columns: 260px 260px;
+}
+
+.contModalEdit > div {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 620px) {
+
+    .contModal {
+        grid-template-columns: 300px 300px;
+    }
+
+    .contModalEdit {
+        grid-template-columns: 260px;
+    }
+    
+}
+
+@media only screen and (max-width: 585px) {
+
+    .contModal {
+        grid-template-columns: 300px;
+    }
+    
+}

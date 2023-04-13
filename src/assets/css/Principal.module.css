@@ -1,0 +1,46 @@
+
+.contenedor {
+    
+}
+
+.griid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 260px);
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.links {
+    text-decoration: none;
+}
+
+@media only screen and (min-height: 936px) {
+    .contenedor {
+        height: 70vh;
+    }
+}
+
+@media only screen and (min-height: 1070px) {
+    .contenedor {
+        height: 72vh;
+    }
+}
+
+@media only screen and (min-height: 1150px) {
+    .contenedor {
+        height: 73.5vh;
+    }
+}
+
+@media only screen and (min-height: 1250px) {
+    .contenedor {
+        height: 75vh;
+    }
+}
+
+@media only screen and (min-height: 1350px) {
+    .contenedor {
+        height: 77vh;
+    }
+}

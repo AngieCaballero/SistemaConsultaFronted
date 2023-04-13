@@ -1,0 +1,33 @@
+.reportes {
+
+}
+
+.reportes > h3 {
+    font-size: 24px;
+    text-align: center;
+    margin: 40px;
+    color: #121828;
+}
+
+.contenedor {
+    display: flex;
+    margin: 40px;
+    justify-content: center;
+    
+}
+
+table {
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 15px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+th {
+    border-right: 1px solid #c7c7c7;
+    color: #121828;
+}
+
